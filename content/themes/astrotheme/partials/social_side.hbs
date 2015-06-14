@@ -4,28 +4,19 @@
 	
 	{{! USE THE BELOW SYNTAX TO ADD SOCIAL PROFILES FOR EACH AUTHOR }}
 	{{! REMOVE ANY LINKS WHICH ARE NOT REQUIRED }}
-	{{#has author="Mike Ross"}}
+	{{#has author="Bob Owen"}}
 		<ul class="socialside">
 			{{! ADD AUTHOR SOCIAL LINKS HERE }}
 			{{! REMOVE ANY UNWATED LINKS }}
-			{{! TWITTER }}<li><a href="http://twitter.com/" class="smallsocialbutton twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-			{{! FACEBOOK }}<li><a href="http://facebook.com" class="smallsocialbutton facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
-			{{! GITHUB }}<li><a href="http://github.com" class="smallsocialbutton github" target="_blank"><i class="fa fa-github"></i></a></li>
-			{{! INSTAGRAM }}<li><a href="htt://instagram.com/" class="smallsocialbutton instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
-			{{! RSS - LEAVE DEFAULT }}<li><a href="{{@blog.url}}/rss/" class="smallsocialbutton rss" target="_blank"><i class="fa fa-rss"></i></a></li>
+      {{! GITHUB }}<li><a href="http://github.com/onetruebob" class="github" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+      {{! LINKEDIN }}<li><a href="http://www.linkedin.com/in/robertowen" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li> 
+      {{! TWITTER }}<li><a href="http://twitter.com/theonetruebob" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      {{! FACEBOOK }}<li><a href="http://facebook.com/thebobowen" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+      {{! PERSONAL }}<li><a href="http://www.bobowen.org" class="googleplus" target="_blank"><i class="fa fa-smile-o"></i></a></li>
+      {{! RSS - LEAVE DEFAULT}}<li><a href="{{@blog.url}}/rss/" class="rss" target="_blank"><i class="fa fa-rss"></i></a></li>
+		</ul>
 		</ul>
 	{{/has}}
 
-	{{#has author="Harvey Specter"}}
-		<ul class="socialside">
-			{{! ADD AUTHOR SOCIAL LINKS HERE }}
-			{{! REMOVE ANY UNWATED LINKS }}
-			{{! TWITTER }}<li><a href="http://twitter.com/" class="smallsocialbutton twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-			{{! FACEBOOK }}<li><a href="http://facebook.com" class="smallsocialbutton facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
-			{{! GITHUB }}<li><a href="http://github.com" class="smallsocialbutton github" target="_blank"><i class="fa fa-github"></i></a></li>
-			{{! INSTAGRAM }}<li><a href="htt://instagram.com/" class="smallsocialbutton instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
-			{{! RSS - LEAVE DEFAULT }}<li><a href="{{@blog.url}}/rss/" class="smallsocialbutton rss" target="_blank"><i class="fa fa-rss"></i></a></li>
-		</ul>
-	{{/has}}
 
 {{/has}}
